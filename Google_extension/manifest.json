@@ -1,0 +1,17 @@
+{
+    "name": "Facebook Color",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "index.html"
+
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://www.google.com/*", "https://www.google.com.vn/*" ],
+          "css": ["style.css"],
+          "js": ["custom.js"]
+        }
+      ]
+  }
