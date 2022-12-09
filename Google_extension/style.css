@@ -1,3 +1,17 @@
-html body{
-    background: url(https://scr.vn/wp-content/uploads/2020/08/H%C3%8CNH-%E1%BA%A2NH-M%E1%BA%A0NG-%C4%90%E1%BA%B8P.jpg);
-}
+body { 
+    padding:0px; 
+    margin:0px; 
+    width:300px; 
+    height:200px; 
+   } 
+   h1,h2 { 
+    display:table-row; 
+    vertical-align:middle; 
+    text-align:center; 
+   } 
+   h2 { 
+    background-color:#777; 
+   } 
+ 
+
+   
